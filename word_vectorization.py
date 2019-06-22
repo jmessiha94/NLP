@@ -40,7 +40,7 @@ def bag_of_words(X):
                 j = 0
             embedded.append(j)
         bag_o_words.append(embedded)
-    return bag_o_words
+    return np.array(bag_o_words)
 
 
 
