@@ -11,7 +11,6 @@ from nltk.stem import WordNetLemmatizer
 from nltk.stem.porter import PorterStemmer
 from nltk.stem.snowball import SnowballStemmer
 
-
 lemmatizer = WordNetLemmatizer()
 lancaster_stemmer = LancasterStemmer()
 
